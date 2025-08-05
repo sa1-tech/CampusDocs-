@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.CampusDocs" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light/dark theme colors here if needed -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- App Theme -->
+    <style name="Theme.CampusDocs" parent="Base.Theme.CampusDocs" />
+
+</resources>
